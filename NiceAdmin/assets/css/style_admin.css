@@ -1,0 +1,146 @@
+
+#btn_form a{
+    border: 1px solid #0b1f52;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 6px;
+    background: #0b1f52;
+    color: #fff;
+}
+
+#btn_form a:hover{
+    background-color: #132040;
+}
+
+#btn_job{
+    float: right;
+}
+
+#btn_job button{
+    border: none;
+    background: #2d3f6a;
+    color: #fff;
+    padding: 8px 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    
+}
+
+#btn_job button:hover{
+    background-color: #1a294d;
+}
+
+.table_job{
+    color: black;
+    text-decoration: none;
+}
+
+.table_job .hight_job_thread{
+    width: 144px;
+    overflow: hidden;
+    text-align: center;
+}
+    
+.hight_job{
+    height: 130px;
+    width: 144px;
+    text-align: center;
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
+}
+
+.hight_job::-webkit-scrollbar{
+    width: 10px;
+    /* background-color: lightgray; */
+}
+
+
+.hight_job::-webkit-scrollbar-thumb{
+    background-color: rgb(205, 205, 205);
+    border-radius: 5px;
+}
+
+
+
+.table_job .thread_job, .table_job .job_detail{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #eee;
+    color: black;
+    padding: 10px 0;
+}
+
+.table_job .thread_job{
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.table_job .job_detail:hover{
+    background-color: #eee;
+}
+
+/* .table_job .job_detail:hover:hover .thread_job::-webkit-scrollbar-thumb{
+    background-color: #eee;
+} */
+
+.card-body {
+    padding: 0;
+}
+
+.upload{
+    width: 125px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.upload img{
+    border: 2px solid rgb(208, 207, 207);
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    border-style: dotted;
+    padding: 5px;
+}
+
+.upload .rightRound{
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+    width: 205px;
+    height: 205px;
+    line-height: 33px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;  
+}
+
+.upload input{
+    position: absolute;
+    transform: scale(10);
+    opacity: 0;
+}
+#professions{
+    border: 1px solid #eee;
+    margin-left: 10px;
+    padding: 10px;
+    outline: none;
+    border-radius: 8px;
+
+}
+#Paging{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#Paging a{
+    text-decoration: none;
+    border: 1px solid #2d3f6a;
+    padding: 5px 10px;
+    color: #132040;
+    border-radius: 8px;
+    margin: 0 5px;
+}

@@ -1,0 +1,131 @@
+body{
+           
+}
+/* .container_apply 
+{         
+    margin: 10px;
+    color: #444444;
+    background-color: #EEEEEE;  
+    font-family: "Calibri";
+
+} */
+.inf {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+.company{
+    margin-left: 25px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+.submit{
+    border: none;
+    width: 80%;
+    background-color:#5fcf80 ;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: 1000;
+}
+.submit:hover{
+    background-color:#006600;
+    color: azure;
+}
+.submit_now{
+    border: none;
+    font-weight: 1000;
+    background-color:#5fcf80 ;
+    border-radius: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin: 10px;
+}
+.submit_now:hover{
+    background-color:#006600;
+    color: azure;
+}
+.icon_details{
+    background: linear-gradient(11deg,#00bf5d,#00907c);
+    border-radius: 80px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.icon_address{
+    background: linear-gradient(11deg,#00bf5d,#00907c);
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+body{
+    margin: 10px;
+    padding: 20px;
+}
+.table{
+    border: 1px solid chartreuse;
+    border-radius: 10px;
+    border-style: dashed;
+    padding: 25px;
+}
+.upload{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px dashed #555;
+    color: #444;
+    cursor: pointer;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+.upload:hover{
+    background: #eee;
+    border-color: #111;
+}
+.input {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size:15px;
+    /* color: white; */
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    &::placeholder {
+        /* color: transparent; */
+        color: darkgrey;
+    }
+}
+.input:focus {
+padding-bottom: 6px;  
+font-weight: 500;
+border-width: 3px;
+border-image: linear-gradient(to right, primary,secondary);
+border-image-slice: 1;
+}
+.finish{
+    border: none;
+    width: 80%;
+    background-color:#5fcf80 ;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: 1000;
+}
+.finish:hover{
+    background-color:#006600;
+    color: azure;
+}
+
+.err{
+    color: red;
+}

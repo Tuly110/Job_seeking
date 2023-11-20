@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Fira+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500&family=Uchen&family=Ysabeau:wght@200;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to left, #748ebd, #7792c5);
+    /* background-color:  #f6f9ff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input-two{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(99, 120, 158,0.2);
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+.select_form{
+    border: 1px solid rgb(99, 120, 158,0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.select_form select{
+    border: none;
+    outline: none;
+}
+
+.form_input{
+    padding: 10px;
+    border: none;
+    width: 100%;
+    height: 40px; 
+    outline: none;
+    transition: 0.25s ease;
+    z-index: 1;
+    background-color: transparent;
+    color: #132a51;
+}
+
+.con_admin{
+    background-color: #fff;
+    box-shadow: 0 0 5px #bdbfc5;
+    padding: 10px;
+}
+
+.form_left-input{
+    border-radius: 5px;
+    position: relative;
+    padding-right: 10px;
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    color: #132a51;
+}
+
+.form_right-input{
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form_field{
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+
+.form_lable{
+    padding-left: 10px;
+    margin: 10px 0;
+    
+}
+
+
+.btn_dangki{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    background-color:#3f5272;;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn_dangki:hover{
+    background-color: #132a51;
+}
+
+.check_box_field{
+    margin-top: 60px;
+}
+
+.check_box_field .dieukhoan{
+    color: #3f5272;
+}
+
+.changer-page {
+    float: right;
+}
+
+.changer-page a{
+    margin-left: 10px;
+    color: #748ebd;
+    text-decoration: none;
+    border-bottom:1px solid #3f5272 ;
+}
+
+.changer-page a:hover{
+    color: #132a51;
+}
+
+@media (max-width:1200px) and (min-width:1000px) {
+
+    .form_left-input{
+        width: 400px;
+    }
+}
+
+@media (max-width:1000px) {
+    body{
+        height: auto;
+        overflow: auto;
+        padding: 10px 0;
+    }
+
+    /* .con_admin .row{
+        margin: 10px 0;
+    } */
+}
