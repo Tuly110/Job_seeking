@@ -29,14 +29,14 @@
 <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">SEARCH</a></h1>
+      <h1 class="logo me-auto "><a class="text-decoration-none" href="index.html">SEARCH</a></h1>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="" href="index.php">Home</a></li>
-          <li><a href="jobs.php">Job</a></li>
-          <li><a href="courses.html">Address</a></li>
-          <li><a href="trainers.html">Profile and CV</a></li>
+          <li><a class="text-decoration-none" href="index.php">Home</a></li>
+          <li><a class="text-decoration-none" href="jobs.php">Job</a></li>
+          <li><a class="text-decoration-none" href="courses.html">Address</a></li>
+          <li><a class="text-decoration-none" href="trainers.html">Profile and CV</a></li>
           <li class="nav-item dropdown pe-3">
             <?php
               if(isset( $_SESSION['user']))
@@ -50,7 +50,7 @@
 
             <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="logout.php">
+                <a class="dropdown-item d-flex align-items-center text-decoration-none" href="logout.php">
                   <i class="bi bi-box-arrow-right"></i>
                   <span>Log out</span>
                 </a>
@@ -87,7 +87,7 @@
   
             </ul><!-- End Profile Dropdown Items -->
           </li><!-- End Profile Nav -->
-          <li><a href="forms/form_login.php" >Login</a></li>
+          <li><a href="forms/form_login.php" class="text-decoration-none" >Login</a></li>
 
         <?php } ?>
         </ul>
