@@ -248,9 +248,7 @@ h6 {
 .navbar .dropdown ul li {
   min-width: 200px;
 }
-a{
-  text-decoration: none;
-}
+
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-size: 14px;
@@ -1635,7 +1633,7 @@ section {
 .course-item .course-content h4{
   font-size: 14px;
   color: darkgray;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
   font-weight: bold;
   background: white;
   word-wrap: break-word;
