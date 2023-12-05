@@ -12,6 +12,10 @@ ob_start();
 
     if(isset($_POST['update']))
     {  
+        if(!empty($_FILES['fileImg']['name']))
+        {
+          $_FILES['fileImg']['name']=$_POST['name_img'];
+        }
         $id_jobs = $_GET['id_jobs'];
         $name_job = trim($_POST['job']);
         $company_job = trim($_POST['company']);
@@ -150,7 +154,7 @@ ob_start();
                   <input type="hidden" name="id" id="" value = "">
                   <div class=upload>
                       <img src="./assets/img/Choose_Image.jpg<?= $data['image'] ?>" id="image" alt="">
-                      
+                      <input type="hidden" name="name_img" id="" value="<?= $data['image'] ?>">
                       <div class="rightRound" id="upload">
                           <input type="file" name="fileImg" id="fileImg"  >
                           <!-- <span class='fa'>+</span> -->

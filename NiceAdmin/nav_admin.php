@@ -3,6 +3,7 @@
   include "../Mentor/forms/connect.php";
   // unset($_SESSION['user']);
   $user = !empty($_SESSION['user_admin'])?$_SESSION['user_admin']:'';
+  // echo $user['ID']; exit();
 ?>
 
 <!DOCTYPE html>
