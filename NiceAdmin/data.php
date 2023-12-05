@@ -1,9 +1,13 @@
 <?php 
+// session_start();
     include 'nav_admin.php';
+    // include "../Mentor/forms/connect.php";
+
     include 'sidibar.php';
 
     $num = 0;
     if(isset($_SESSION['user_admin'])){
+      // echo $user['ID']; exit();
       $sql = "SELECT * FROM jobs WHERE id_user =".$user['ID']."";
       $required_job = mysqli_query($conn,$sql);
 

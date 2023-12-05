@@ -108,7 +108,7 @@ session_start();
                     <hr>
                 </div>
                 <div class="if_details">
-                   <b class="text-success"> Enter detailed information: </b>
+                   <b class="text-success"> Enter details information: </b>
                     <div class="name">                      
                         <input class="input" type="text" name="name" placeholder="Enter your name">
                     </div>

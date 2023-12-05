@@ -23,8 +23,8 @@
       </li><!-- End Tables Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#">
-          <i class="bi bi-bar-chart"></i><span>Charts</span>
+        <a class="nav-link collapsed" href="list_apply.php">
+          <i class="bi bi-bar-chart"></i><span>List apply</span>
         </a>
       </li><!-- End Charts Nav -->
 
