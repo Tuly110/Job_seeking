@@ -1,7 +1,7 @@
 <?php
     ob_start();
-    include "../Mentor/forms/connect.php";
-    // include 'nav_admin.php' ;
+    // include "../Mentor/forms/connect.php";
+    include 'nav_admin.php' ;
     include 'sidibar.php';
     $id_apply = $_GET['id_apply'];
     // echo $id_apply;
